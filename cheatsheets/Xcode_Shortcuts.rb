@@ -9,36 +9,36 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+O'
       name 'Open quickly'
-    end
-    entry do
-      command 'CMD+J'
-      name 'Move focus to editor'
-    end
+    end    
     entry do
       command 'CMD+SHIFT+J'
       name 'Select current file in project navigator'
     end
     entry do
       command 'CMD+CTRL+Arrow Up'
-      name 'Next counterpart'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Down'
-      name 'Previous counterpart'
+      name 'Next/Previous counterpart'
+    end    
+    entry do
+      command 'CMD+ALT+CTRL+Arrow Up'
+      command 'CMD+ALT+CTRL+Arrow Down'
+      name 'View previous/next counterpart in assistant editor'
     end
     entry do
-      command 'CMD+ALT+SHIFT+Z'
-      name 'View counterpart in assistant editor'
+      command 'CMD+ALT+Shift+Enter'      
+      name 'Show version editor'
+    end
+    entry do
+      command 'CMD+ALT+CTRL+Shift+Enter'      
+      name 'Show comparison view in version editor. (Shortcut is a suggestion)''
     end
     entry do
       command 'CMD+CTRL+Arrow Left'
-      name 'Previous recent file'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Next recent file'
-    end
+      name 'Previous/Next recent file'
+    end    
     entry do
+      command 'CMD+J'
       command 'CMD+Click'
       name 'Definition of symbol'
     end
@@ -48,12 +48,9 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+Arrow Left'
-      name 'Fold section'
-    end
-    entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Unfold section'
-    end
+      name 'Fold/Unfold section'
+    end    
     entry do
       command 'CTRL+1'
       name 'Show related items'
@@ -92,7 +89,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+Space'
-      name 'Toggle completion'
+      name 'Toggle autocompletion'
     end
     entry do
       command 'CMD+CTRL+E'
@@ -100,12 +97,9 @@ cheatsheet do
     end
     entry do
       command 'CMD+]'
-      name 'Increase indentation'
-    end
-    entry do
       command 'CMD+['
-      name 'Decrease indentation'
-    end
+      name 'Increase/Decrease indentation'
+    end    
     entry do
       command 'CTRL+I'
       name 'Fix indentation'
@@ -116,14 +110,10 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+['
-      name 'Move line up'
-    end
-    entry do
       command 'CMD+ALT+]'
-      name 'Move line down'
-    end
+      name 'Move line up/down'
+    end    
   end
-
 
   category do
     id 'Search'
@@ -145,7 +135,26 @@ cheatsheet do
     end
   end
 
-
+  category do
+    id 'Source Control'
+    entry do
+      command 'ALT+CMD+C'
+      name 'Commit'
+    end
+    entry do
+      command 'ALT+CMD+D'
+      name 'Discard all changes (Shortcut is a suggestion)'
+    end
+    entry do
+      command 'ALT+CMD+P'
+      name 'Push (Shortcut is a suggestion)'
+    end
+    entry do
+      command 'ALT+CMD+X'
+      name 'Pull'
+    end
+  end
+  
   category do
     id 'Navigator'
     entry do
@@ -187,11 +196,7 @@ cheatsheet do
     entry do
       command 'ALT+Click'
       name 'Open in assistant navigator'
-    end
-    entry do
-      command 'ALT+SHIFT+Click'
-      name 'Decide where to open'
-    end
+    end    
   end
 
   category do
