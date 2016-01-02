@@ -9,7 +9,7 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+O'
       name 'Open quickly'
-    end    
+    end
     entry do
       command 'CMD+SHIFT+J'
       name 'Select current file in project navigator'
@@ -18,25 +18,25 @@ cheatsheet do
       command 'CMD+CTRL+Arrow Up'
       command 'CMD+CTRL+Arrow Down'
       name 'Next/Previous counterpart'
-    end    
+    end
     entry do
       command 'CMD+ALT+CTRL+Arrow Up'
       command 'CMD+ALT+CTRL+Arrow Down'
       name 'View previous/next counterpart in assistant editor'
     end
     entry do
-      command 'CMD+ALT+Shift+Enter'      
+      command 'CMD+ALT+Shift+Enter'
       name 'Show version editor'
     end
     entry do
-      command 'CMD+ALT+CTRL+Shift+Enter'      
-      name 'Show comparison view in version editor. (Shortcut is a suggestion)''
+      command 'CMD+ALT+CTRL+Shift+Enter'
+      name 'Show comparison view in version editor. (Shortcut is a suggestion)'
     end
     entry do
       command 'CMD+CTRL+Arrow Left'
       command 'CMD+CTRL+Arrow Right'
       name 'Previous/Next recent file'
-    end    
+    end
     entry do
       command 'CMD+J'
       command 'CMD+Click'
@@ -50,7 +50,7 @@ cheatsheet do
       command 'CMD+ALT+Arrow Left'
       command 'CMD+CTRL+Arrow Right'
       name 'Fold/Unfold section'
-    end    
+    end
     entry do
       command 'CTRL+1'
       name 'Show related items'
@@ -99,7 +99,7 @@ cheatsheet do
       command 'CMD+]'
       command 'CMD+['
       name 'Increase/Decrease indentation'
-    end    
+    end
     entry do
       command 'CTRL+I'
       name 'Fix indentation'
@@ -112,7 +112,7 @@ cheatsheet do
       command 'CMD+ALT+['
       command 'CMD+ALT+]'
       name 'Move line up/down'
-    end    
+    end
   end
 
   category do
@@ -154,7 +154,7 @@ cheatsheet do
       name 'Pull'
     end
   end
-  
+
   category do
     id 'Navigator'
     entry do
@@ -196,7 +196,7 @@ cheatsheet do
     entry do
       command 'ALT+Click'
       name 'Open in assistant navigator'
-    end    
+    end
   end
 
   category do
@@ -227,7 +227,6 @@ cheatsheet do
     end
   end
 
-
   category do
     id 'Documentation'
     entry do
@@ -245,7 +244,6 @@ cheatsheet do
       name 'Show documentation for symbol'
     end
   end
-
 
   category do
     id 'Build & Run'
@@ -278,7 +276,6 @@ cheatsheet do
       name 'Clean'
     end
   end
-
 
   category do
     id 'Utilities'
@@ -327,4 +324,5 @@ cheatsheet do
       name 'Media library'
     end
   end
+
 end
